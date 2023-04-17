@@ -1,0 +1,13 @@
+CREATE TABLE LocalizePreference  (
+    id INTEGER NOT NULL PRIMARY KEY,
+    language TEXT,
+    region TEXT
+);
+
+
+insert:
+INSERT OR REPLACE INTO LocalizePreference VALUES ?;
+
+
+select:
+SELECT * FROM LocalizePreference;
